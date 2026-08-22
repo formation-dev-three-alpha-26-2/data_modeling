@@ -19,17 +19,6 @@ Exemples possibles :
 
 ##  Représenter des livres sous forme d’objets
 
-Créer des objets pour :
-
-- Harry Potter à l’école des sorciers (J.K. Rowling)
-- Roméo et Juliette (William Shakespeare)
-- Structure et interprétation des programmes informatiques (Gerald Jay Sussman, Hal Abelson)
-- Ajouter 3 autres livres célèbres
-
----
-
-## Éviter les répétitions (Principe DRY)
-
 Créer une fonction fabrique :
  Créer un livre
 ```javascript
@@ -42,6 +31,12 @@ Elle doit :
 - Prendre les attributs en paramètres
 - Retourner un objet représentant un livre
 
+exemple : 
+
+- Harry Potter à l’école des sorciers (J.K. Rowling)
+- Roméo et Juliette (William Shakespeare)
+- Structure et interprétation des programmes informatiques (Gerald Jay Sussman, Hal Abelson)
+- Ajouter 3 autres livres célèbres
 ---
 
 ##  Affichage lisible d’un livre
